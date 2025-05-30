@@ -128,8 +128,3 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-# LTI 1.1 Consumer keys and secrets (add your Moodle key/secret here)
-LTI_CONSUMERS = {
-    env('LTI_CONSUMER_KEY'): env('LTI_CONSUMER_SECRET'),
-}
