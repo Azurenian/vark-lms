@@ -61,7 +61,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiUrl: process.env.NUXT_PUBLIC_API_URL,
-      ltiRedirect: process.env.NUXT_PUBLIC_LTI_REDIRECT,
     }
   }
 })
